@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media only screen and (min-width: 425px) {
+    body {
+        background-color: rgb(165, 100, 250);
+
+        display:  flex;
+        justify-content: center;
+        align-items: stretch;
+    }
+    .full {
+        width: 100%;
+        max-width: 1000px;
+        min-height: 100px;
+        background-color: rgb(255, 196, 0);
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 2fr 4fr;
+    }
+  }
+  @media only screen and (min-width: 426px) {
+    body {
+        background-color: rgb(100, 250, 100);
+
+        display:  flex;
+        justify-content: center;
+        align-items: stretch;
+    }
+    .full {
+        width: 100%;
+        max-width: 1000px;
+        min-height: 100px;
+        background-color: rgb(126, 9, 63);
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 2fr 4fr;
+    }
+  }
+  @media only screen and (min-width: 769px) {
+    body {
+        background-color: rgb(19, 1, 1);
+
+        display:  flex;
+        justify-content: center;
+        align-items: stretch;
+    }
+    .full {
+        width: 100%;
+        max-width: 1000px;
+        min-height: 100px;
+        background-color: blue;
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 2fr 4fr;
+    }
+  }
+  
+ /* body {
+    background-color: rgb(250, 100, 150);
+
+    display:  flex;
+    justify-content: center;
+    align-items: stretch;
+}  */
+/* .full {
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    background-color: blue;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+} */
+.left {
+    position: initial;
+    background-color: rgb(126, 219, 231);
+    padding: 20px;
+
+}
+.right {
+    position: initial;
+    background-color: rgb(162, 202, 206);
+    padding: 20px;
+
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title, .Summary, .Experiance, .Education, .project {
+    margin-bottom: 30px;
+}
+.h2 {
+    background-color: rgb(4, 96, 150);
+}
